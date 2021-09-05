@@ -1,4 +1,9 @@
-username = input("Enter username:")
-print("Username is: " + username)
+#!/usr/bin/python
+
+import sqlite3
+
+conn = sqlite3.connect('test.db')
+
+print ("Opened database successfully");
 
 
